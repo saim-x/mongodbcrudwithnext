@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+    min-height: 100vh;
+}
+
+input,
+textarea {
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 10px rgba(59, 131, 246, 0.199);
+}
