@@ -1,4 +1,8 @@
+'use client';
+
+
 const AddTopicPage = () => {
+    console.log("AddTopicPage");
     return (
         <form className="flex flex-col gap-5 p-6 bg-white rounded-lg shadow">
             <input
