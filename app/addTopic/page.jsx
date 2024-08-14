@@ -25,7 +25,7 @@ const AddTopicPage = () => {
                 body: JSON.stringify({ title, description }),
             })
 
-            if (res.ok) {
+            if (res.ok) { 
                 router.push("/");
             } else {
                 throw new Error("Failed to add topic");
