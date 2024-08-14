@@ -16,7 +16,7 @@ export function HoverCardDemo() {
     return (
         <HoverCard>
             <HoverCardTrigger asChild>
-                <Button variant="link">@Developer</Button>
+                <Button variant="link">@About Developer</Button>
             </HoverCardTrigger>
             <HoverCardContent className="w-80">
                 <div className="flex justify-between space-x-4">
